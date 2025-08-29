@@ -44,3 +44,12 @@ pensamento = ((nome) => {
 })("Ronadlinho")
 
 console.log(pensamento)
+
+async function processarAsync(params, callback) {
+    
+    const resultado = await callback(params);
+
+    console.log(resultado)
+
+
+}
